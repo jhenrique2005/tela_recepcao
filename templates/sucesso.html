@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Confirmado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilo.css') }}">
+</head>
+<body class="bg-light d-flex align-items-center min-vh-100">
+
+    <div class="container text-center">
+        <div class="card shadow p-5 mx-auto" style="max-width: 500px; border-radius: 20px;">
+            <div class="mb-4">
+                <div class="check-icon">✓</div>
+            </div>
+            <h2 class="fw-bold">Cadastro Realizado!</h2>
+            <p class="text-muted">Guarde seu número para o sorteio:</p>
+            
+            <div class="numero-container my-4">
+                <span class="display-1 fw-bold text-primary">{{ numero_sorteio }}</span>
+            </div>
+
+            <p class="small text-secondary">Boa sorte!</p>
+            <a href="/" class="btn btn-outline-primary mt-3">Voltar ao Início</a>
+        </div>
+    </div>
+
+</body>
+</html>

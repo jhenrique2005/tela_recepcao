@@ -1,0 +1,22 @@
+.check-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #28a745;
+    color: white;
+    font-size: 50px;
+    line-height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.numero-container {
+    background-color: #f8f9fa;
+    border: 2px dashed #0d6efd;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.display-1 {
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
