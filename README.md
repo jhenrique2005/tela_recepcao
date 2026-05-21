@@ -80,7 +80,7 @@ Este projeto foi desenvolvido para praticar e consolidar conhecimentos em:
 
 ## 👨‍💻 Autor
 
-**Felipe Pereira**
+**Felipe Pereira e João Henrique**
 
 <p>
   <a href="https://github.com/dev-felpzz">
